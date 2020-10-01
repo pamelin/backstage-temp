@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-temp
+  description: Testing
+  annotations: 
+    github.com/project-slug: pamelin/backstage-temp
+spec:
+  type: service
+  lifecycle: experimental
+  owner: pamelin
